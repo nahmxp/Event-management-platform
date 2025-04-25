@@ -1,8 +1,6 @@
 import { create } from 'zustand';
 import axios from '../utils/axios';
 
-const API_URL = 'http://localhost:5000/api';
-
 export const useAuthStore = create((set) => ({
   user: null,
   token: localStorage.getItem('token'),

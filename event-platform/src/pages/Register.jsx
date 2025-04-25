@@ -31,7 +31,15 @@ const Register = () => {
       alert('Passwords do not match');
       return;
     }
-    const success = await register(formData.username, formData.email, formData.password);
+    
+    // Send only the required fields
+    const userData = {
+      username: formData.username,
+      email: formData.email,
+      password: formData.password
+    };
+    
+    const success = await register(userData);
     if (success) {
       navigate('/dashboard');
     }
