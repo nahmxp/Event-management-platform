@@ -3,8 +3,8 @@
 A full-stack event management platform built with React, Node.js, Express, and MongoDB. Users can create, discover, and manage events in various categories.
 
 ## Live Demo
-- Frontend: [https://event-platform-frontend.vercel.app](https://event-platform-frontend.vercel.app)
-- Backend: [https://event-platform-backend.vercel.app](https://event-platform-backend.vercel.app)
+- Frontend: [https://event-management-platform-ruby.vercel.app/](https://event-management-platform-ruby.vercel.app/)
+- Backend: [https://event-management-platform-ncaq.vercel.app/](https://event-management-platform-ncaq.vercel.app/)
 
 ## Features
 
